@@ -1,0 +1,72 @@
+{
+  // Workbench
+  "workbench.colorTheme": "Dracula",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+
+  // Editor
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.letterSpacing": 0.85,
+  "editor.fontLigatures": true,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.rulers": [80, 120],
+  "editor.suggestSelection": "first",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+
+  // Explorer
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+
+  // Eslint
+  "eslint.alwaysShowStatus": true,
+  "eslint.run": "onSave",
+  "eslint.lintTask.enable": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // Extensions
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "domain": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.webpack.js": "webpack"
+  },
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "tabnine.experimentalAutoImports": true,
+  "splitHTMLAttributes.closingBracketOnNewLine": true
+}
